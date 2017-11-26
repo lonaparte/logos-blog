@@ -1,1 +1,10 @@
-baseurl: /logos-blog
+title: 技术是潇洒的艺术   
+subtitle:    
+description:          
+author: lonaparte    
+language: zh-Hans
+url:  
+theme: 
+deploy: 
+type: git
+repo: https://github.com/lonaparte/logos-blog
