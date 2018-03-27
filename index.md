@@ -5,6 +5,6 @@ layout: default
 
 <ul>
 　　{% for post in site.posts %}
-　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}"><font color="black" size="3px">{{ post.title }}</font></a></li>
+　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}"><font color="black">{{ post.title }}</font></a></li>
 　　{% endfor %}
 </ul>
