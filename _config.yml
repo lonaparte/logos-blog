@@ -4,7 +4,7 @@ description:
 author: lonaparte    
 language: zh-Hans
 url:  
-theme: 
+theme: jekyll-theme-minimal
 deploy: 
 type: git
 repo: https://github.com/lonaparte/logos-blog
