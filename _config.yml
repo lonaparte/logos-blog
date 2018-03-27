@@ -1,9 +1,9 @@
-title: 技术是潇洒的艺术   
-subtitle:    
-description:          
-author: lonaparte    
+title: 行路难   
+subtitle: 技术是潇洒的艺术  
+description: 这里记录了一个奔三青年的点滴，他希望用这种方式来沉淀他日常的收获。
+author: Lonaparte CHENG    
 language: zh-Hans
-url:  
+url: https://lonaparte.github.io/logos-blog  
 theme: jekyll-theme-minimal
 deploy: 
 type: git
