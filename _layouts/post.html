@@ -7,7 +7,10 @@ layout: default
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
-<p text-indent:2em>{{content}}</p>
+<!-- <p text-indent:2em>{{content}}</p> --> 
+<!-- 上句无效 -->
+
+{{content}}
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
