@@ -18,12 +18,10 @@ layout: default
 
 <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
 <p class="view">by {{ page.author | default: site.author }}</p>
-
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
 
 <!-- <p text-indent:2em>{{content}}</p> --> 
 <!-- 上句无效 -->
